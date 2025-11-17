@@ -18,6 +18,7 @@ The best model is selected using AUC (Area Under ROC Curve) and exported to gene
 This project follows a clean ML architecture with reproducible scripts for preprocessing, training, and evaluation.
 
 ## 2. Project structure
+
 Scombridae-Distribution-Prediction-SVM/
 │
 ├── data/
