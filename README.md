@@ -86,7 +86,31 @@ Evaluation steps:
 - Scale using saved scaler
 - Predict occurrence + probability
 - Save global probability map (PNG)
+
 Run: python src/evaluate.py
+
 Output figures are saved in: outputs/figures/probability_map.png
-<img width="2280" height="854" alt="prob_map" src="https://github.com/user-attachments/assets/8fa3a700-00a8-4de4-8ea6-e8696ecf9485" />
+
+<img width="2280" height="854" alt="prob_map" src="https://github.com/user-attachments/assets/74f68fb8-3bae-4f9c-985c-9daea023c642" />
+
+### 4.4. Skills Demonstrated
+
+✔ Machine Learning
+Classification (SVM, RF, XGBoost, Logistic Regression)
+Model evaluation (AUC, accuracy)
+Probability mapping
+
+✔ Data Engineering
+Pipeline design (src/ structure)
+Data cleaning, scaling, transformation
+Joblib model persistence
+
+✔ Scientific Computing
+NetCDF processing via netCDF4
+Satellite/oceanographic datasets
+Global grid prediction
+
+✔ Visualization
+Probability maps (matplotlib)
+Geospatial representation
 
