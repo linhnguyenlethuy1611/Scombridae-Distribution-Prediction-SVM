@@ -51,7 +51,7 @@ Scombridae-Distribution-Prediction-SVM/
 - Machine Learning Model Training + cross-validation
 - Evaluation with ROC-AUC and other metrics
 - Spatial prediction mapped to a regular grid
-  ## 4. Data processing
+## 4. Data processing
 ### 4.1. Data preprocessing
 Source CSV contains environmental data and species presence/absence (occurrenceStatus).
 The preprocessing pipeline:
