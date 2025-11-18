@@ -129,6 +129,7 @@ Probability maps (matplotlib)
 Geospatial representation
 
 ### 4.5. Requirements
+````
 pandas
 numpy
 scikit-learn
@@ -136,9 +137,10 @@ xgboost
 matplotlib
 netCDF4
 joblib
-
+`````
 
 🚀 Author
-Linh Nguyen
-Data Scientist 
+
+Linh Nguyen - Data Scientist 
+
 GitHub: https://github.com/linhnguyenlethuy1611
