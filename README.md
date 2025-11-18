@@ -99,22 +99,33 @@ Output figures are saved in: outputs/figures/probability_map.png
 ### 4.4. Skills Demonstrated
 
 ✔ Machine Learning
+
 Classification (SVM, RF, XGBoost, Logistic Regression)
+
 Model evaluation (AUC, accuracy)
+
 Probability mapping
 
 ✔ Data Engineering
+
 Pipeline design (src/ structure)
+
 Data cleaning, scaling, transformation
+
 Joblib model persistence
 
 ✔ Scientific Computing
+
 NetCDF processing via netCDF4
+
 Satellite/oceanographic datasets
+
 Global grid prediction
 
 ✔ Visualization
+
 Probability maps (matplotlib)
+
 Geospatial representation
 
 ### 4.5. Requirements
