@@ -58,6 +58,7 @@ The preprocessing pipeline:
 - Removes NaN from SST, SSS, and Chl-a
 - Aligns features: depth, SST, SSS, Chl
 - Saves cleaned dataset:data/processed/fish_data_clean.csv
+  
 Run: python src/preprocess.py
 
 ### 4.2. Machine Learning Model Training
@@ -71,9 +72,10 @@ Run: python src/preprocess.py
 | **SVM (best)**      | **0.992** | **1.000** |
 
 SVM with probability=True achieved the best performance.
-Scripts create:
-outputs/model/best_model.pkl
-outputs/model/scaler.pkl
+
+Scripts create: outputs/model/best_model.pkl
+                outputs/model/scaler.pkl
+                
 Run training: python src/train_model.py
 ### 4.3. Predicting Habitat Probability via NetCDF
 NetCDF datasets:
