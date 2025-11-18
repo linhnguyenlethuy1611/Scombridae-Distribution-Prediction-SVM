@@ -18,6 +18,7 @@ The best model is selected using AUC (Area Under ROC Curve) and exported to gene
 This project follows a clean ML architecture with reproducible scripts for preprocessing, training, and evaluation.
 
 ## 2. Project structure
+````
 Scombridae-Distribution-Prediction-SVM/
 │
 ├── data/
@@ -43,7 +44,7 @@ Scombridae-Distribution-Prediction-SVM/
 │
 ├── requirements.txt
 └── README.md
-
+````
 ## 3. Method
 - Data collection and merging (species + environment)
 - Feature engineering (SST, Chl-a, salinity, lat, lon, etc.)
@@ -114,3 +115,17 @@ Global grid prediction
 Probability maps (matplotlib)
 Geospatial representation
 
+### 4.5. Requirements
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+netCDF4
+joblib
+
+
+🚀 Author
+Linh Nguyen
+Data Scientist 
+GitHub: https://github.com/linhnguyenlethuy1611
